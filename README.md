@@ -44,7 +44,7 @@ The example below describes a basic implementation of the library.
 ```csharp
 using Bleak;
 
-var injector = new Injector { RandomiseDllName = true };
+var injector = new Injector();
 
 // Inject a DLL into a process using the CreateRemoteThread method
 
